@@ -10,7 +10,7 @@ function buscarGENERO() {
                     if (err) {
                         reject({mensaje: 'Error leyendo'});
                     } else {
-                        const bdd = JSON.parse(contenido);
+                       const bdd = JSON.parse(contenido);
                         const respuestaFind = bdd.persona
                             .map(
                                 (people)=>{
